@@ -35,4 +35,4 @@ const EventDetailedPage = ({event}) => {
     )
 }
 
-export default connect(mapState)(EventDetailedPage)
+export default connect(mapState)(EventDetailedPage);
