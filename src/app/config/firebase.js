@@ -5,14 +5,14 @@ import 'firebase/auth';
 import 'firebase/storage';
 
 const firebaseConfig = {
-    apiKey: "AIzaSyBZ4FOT8ZHOYmn7IXMHcH9Oi3vtgWsoamg",
-    authDomain: "revents-5be0d.firebaseapp.com",
-    databaseURL: "https://revents-5be0d.firebaseio.com",
-    projectId: "revents-5be0d",
-    storageBucket: "revents-5be0d.appspot.com",
-    messagingSenderId: "633055395603",
-    appId: "1:633055395603:web:300f0b47ef3b6e37"
-  };
+  apiKey: "AIzaSyDk4JIjy6OJELGqQ6wp8LueDIhZNj1X8YY",
+  authDomain: "revents-2.firebaseapp.com",
+  databaseURL: "https://revents-2.firebaseio.com",
+  projectId: "revents-2",
+  storageBucket: "",
+  messagingSenderId: "17117034641",
+  appId: "1:17117034641:web:c7360e00bf956729"
+};
 
   firebase.initializeApp(firebaseConfig);
   firebase.firestore();
